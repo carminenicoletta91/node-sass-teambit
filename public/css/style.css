@@ -621,19 +621,19 @@ header .header-bottom-sx {
 header .header-bottom-sx h1 {
   font-size: 50px;
   font-weight: 900;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 header .header-bottom-sx > p {
   font-size: 25px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 header .header-bottom-sx .link {
   display: flex;
   justify-content: flex-star;
   align-items: center;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 header .header-bottom-sx .link a,
@@ -649,6 +649,14 @@ header .header-bottom-sx .link a {
 
 header .header-bottom-sx .link a:hover {
   background-color: navy;
+}
+
+header .header-bottom-sx a.email-user {
+  color: #58402c;
+}
+
+header .header-bottom-sx a.email-user:hover {
+  color: navy;
 }
 
 a {
