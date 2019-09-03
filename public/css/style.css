@@ -659,7 +659,90 @@ header .header-bottom-sx a.email-user:hover {
   color: navy;
 }
 
-a {
+.section-one {
+  background-color: #ffe7d2;
+  color: #58402c;
+}
+
+.top .title,
+.bottom .title {
+  font-size: 25px;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.top .title h2,
+.bottom .title h2 {
+  margin: 0 50px;
+}
+
+.top .illustrazions .left img,
+.top .illustrazions .center img,
+.top .illustrazions .right img,
+.bottom .illustrazions .left img,
+.bottom .illustrazions .center img,
+.bottom .illustrazions .right img {
+  width: 200px;
+  height: 150px;
+  margin: 0 20px;
+}
+
+.top .illustrazions .left,
+.top .illustrazions .center,
+.top .illustrazions .right,
+.bottom .illustrazions .left,
+.bottom .illustrazions .center,
+.bottom .illustrazions .right {
+  padding-bottom: 80px;
+}
+
+.top .illustrazions .left p,
+.top .illustrazions .center p,
+.top .illustrazions .right p,
+.bottom .illustrazions .left p,
+.bottom .illustrazions .center p,
+.bottom .illustrazions .right p {
+  text-align: left;
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+.top .rabbit-image,
+.bottom .rabbit-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.top .rabbit-image img,
+.bottom .rabbit-image img {
+  width: 250px;
+  margin: 0;
+}
+
+.top .hr-line,
+.bottom .hr-line {
+  padding-bottom: 50px;
+}
+
+.top .hr-line hr,
+.bottom .hr-line hr {
+  color: gray;
+}
+
+.top .right img.cats,
+.bottom .right img.cats {
+  width: 100px;
+  margin: 0 70px;
+}
+
+.bottom .rabbit-image {
+  padding-bottom: 0;
+}
+
+* {
   text-decoration: none;
+  list-style: none;
 }
 

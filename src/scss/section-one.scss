@@ -1,0 +1,56 @@
+.section-one{
+  background-color:$color_bg_default;
+  color:$color_text_default;
+}
+  .top,.bottom{
+    .title{
+      font-size:$size_medium;
+      padding:80px 0;
+      text-align: center;
+      h2{
+        margin:0 50px;
+      }
+    }
+    .illustrazions {
+      .left img,.center img,.right img{
+        width:200px;
+        height:150px;
+        margin:0 20px;
+      }
+      .left,.center,.right{
+        padding-bottom:80px;
+      }
+      .left p,.center p,.right p{
+        text-align: left;
+        font-size:20px;
+        padding-top:30px;
+
+      }
+
+
+    }
+    .rabbit-image{
+      @include flexatcenter(center);
+      padding-bottom:100px;
+      img{
+        width:250px;
+        margin:0
+      }
+    }
+    .hr-line {
+      padding-bottom:50px;
+    }
+    .hr-line hr{
+
+      color:gray;
+    }
+    .right img.cats{
+      width:100px;
+      margin:0 70px;
+    }
+  }
+  .bottom{
+    .rabbit-image {
+      padding-bottom:0;
+    }
+  }

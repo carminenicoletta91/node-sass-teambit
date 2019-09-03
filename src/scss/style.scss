@@ -17,6 +17,8 @@ $color_text_default:#58402c;
 @import "12bool";
 @import "cookie";
 @import "header";
-a{
+@import "section-one";
+*{
   text-decoration: none;
+  list-style: none;
 }

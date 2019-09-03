@@ -1,10 +1,28 @@
 header{
   color:$color_text_default;
   .header-top{
-
     width:100%;
     @include flexatcenter(space-between);
     padding:30px 0;
+    // .header-top-navbar{
+    //   @include flexatcenter(space-between);
+    //   p{
+    //     color:$color_text_default;
+    //     &:hover{
+    //       color:navy;
+    //     }
+    //   }
+    //   ul{
+    //     display: flex;
+    //   }
+    //   ul li,.solutions {
+    //     padding:0 15px;
+    //   }
+    //   li a.sign-up {
+    //     border-radius:15px;
+    //     background-color:blue;
+    //   }
+    // }
   }
   hr{
     color:$color_text_default;
