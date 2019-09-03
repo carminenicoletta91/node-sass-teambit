@@ -1,10 +1,11 @@
 .cookie{
-  height:30px;
+  padding:10px;
   background:$color_bg_default;
-  @include  flexatcenter;
+  @include  flexatcenter(center);
+  font-size:$size_small;
   a{
     @include colorcookie(0.8);
-    
+
     &:hover{
       @include colorcookie(1);
     }

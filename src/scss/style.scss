@@ -1,12 +1,22 @@
 $color_bg_default:#ffe7d2;
+$size_small:15px;
+$size_medium:25px;
+$size_large:50px;
+$color_text_default:#58402c;
 @mixin colorcookie($grade_opacity){
   color:rgba(0,0,160,$grade_opacity);
-  text-decoration: none;
 }
-@mixin flexatcenter{
+@mixin colorlink($grade_opacity){
+  background-color:rgba(0,0,128,$grade_opacity);
+}
+@mixin flexatcenter($content){
   display: flex;
-  justify-content: center;
+  justify-content: $content;
   align-items: center;
 };
 @import "12bool";
 @import "cookie";
+@import "header";
+a{
+  text-decoration: none;
+}
