@@ -1,0 +1,12 @@
+.cookie{
+  height:30px;
+  background:$color_bg_default;
+  @include  flexatcenter;
+  a{
+    @include colorcookie(0.8);
+    
+    &:hover{
+      @include colorcookie(1);
+    }
+  }
+}

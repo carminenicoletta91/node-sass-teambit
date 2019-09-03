@@ -1,0 +1,12 @@
+$color_bg_default:#ffe7d2;
+@mixin colorcookie($grade_opacity){
+  color:rgba(0,0,160,$grade_opacity);
+  text-decoration: none;
+}
+@mixin flexatcenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+};
+@import "12bool";
+@import "cookie";
