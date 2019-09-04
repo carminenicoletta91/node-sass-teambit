@@ -844,6 +844,58 @@ header .header-bottom-sx a.email-user:hover {
   padding-top: 50px;
 }
 
+footer {
+  padding: 100px 0;
+}
+
+footer a,
+footer span,
+footer p {
+  color: #58402c;
+}
+
+footer a:hover {
+  color: navy;
+}
+
+footer a.teambit {
+  color: navy;
+}
+
+footer a.teambit:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+footer .Product,
+footer .About,
+footer .Connect,
+footer .Labs,
+footer .From-the-blog {
+  padding: 50px 10px;
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+}
+
+footer .logoteam,
+footer .link-teambit {
+  padding: 63px 10px;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: left;
+}
+
+footer .logoteam img,
+footer .link-teambit img {
+  width: 50px;
+  height: 50px;
+}
+
 * {
   text-decoration: none;
   list-style: none;
