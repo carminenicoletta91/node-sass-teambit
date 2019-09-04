@@ -598,8 +598,47 @@ header .header-top {
   padding: 30px 0;
 }
 
-header hr {
+header .header-top-navbar {
+  width: 100%;
+  font-size: 15px;
+  font-weight: 700;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header .header-top-navbar li a,
+header .header-top-navbar a {
   color: #58402c;
+}
+
+header .header-top-navbar li a:hover,
+header .header-top-navbar a:hover {
+  color: navy;
+}
+
+header .header-top-navbar > ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+header .header-top-navbar .menu-drop-box {
+  position: relative;
+  padding: 0 20px;
+}
+
+header .header-top-navbar .menu-drop-box .menu-drop-box-items {
+  display: none;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  line-height: 2.5;
+  padding: 0 15px;
+  background: white;
+  box-shadow: 2px 2px 2px 2px gray;
+  z-index: 999;
+  border-radius: 10px;
+  border-color: gray;
 }
 
 header .header-bottom-dx img {
@@ -770,7 +809,7 @@ header .header-bottom-sx a.email-user:hover {
 
 .feedback .right,
 .reviews .right {
-  margin-right: 350px;
+  margin-right: 250px;
   padding-top: 20px;
   padding-left: 40px;
   font-size: 25px;
@@ -791,7 +830,7 @@ header .header-bottom-sx a.email-user:hover {
 
 .surveys .left,
 .recognition .left {
-  margin-left: 350px;
+  margin-left: 250px;
   padding-top: 20px;
   padding-right: 40px;
   font-size: 25px;
@@ -808,5 +847,10 @@ header .header-bottom-sx a.email-user:hover {
 * {
   text-decoration: none;
   list-style: none;
+}
+
+hr {
+  color: #58402c;
+  opacity: 0.4;
 }
 
