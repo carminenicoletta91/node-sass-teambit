@@ -1,0 +1,50 @@
+.section-two{
+  padding:60px 0;
+  h3,p,a{
+    padding-bottom:40px;
+  }
+  h3{
+    font-weight:700;
+  }
+  a{
+    color:navy;
+  }
+  a i{
+    font-size:20px;
+  }
+}
+.feedback,.reviews{
+
+  .left img{
+    width:100%;
+  }
+  .right{
+    margin-right:350px;
+    padding-top:20px;
+    padding-left:40px;
+    font-size:$size_medium;
+    color:$color_text_default;
+  }
+  .right img{
+    max-width:250px;
+    display: block;
+    padding-top:50px;
+  }
+}
+.surveys,.recognition{
+  .right img{
+    width: 100%;
+  }
+  .left{
+    margin-left:350px;
+    padding-top:20px;
+    padding-right:40px;
+    font-size:$size_medium;
+    color:$color_text_default;
+  }
+  .left img{
+    max-width:250px;
+    display: block;
+    padding-top:50px;
+  }
+}

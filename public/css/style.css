@@ -741,6 +741,70 @@ header .header-bottom-sx a.email-user:hover {
   padding-bottom: 0;
 }
 
+.section-two {
+  padding: 60px 0;
+}
+
+.section-two h3,
+.section-two p,
+.section-two a {
+  padding-bottom: 40px;
+}
+
+.section-two h3 {
+  font-weight: 700;
+}
+
+.section-two a {
+  color: navy;
+}
+
+.section-two a i {
+  font-size: 20px;
+}
+
+.feedback .left img,
+.reviews .left img {
+  width: 100%;
+}
+
+.feedback .right,
+.reviews .right {
+  margin-right: 350px;
+  padding-top: 20px;
+  padding-left: 40px;
+  font-size: 25px;
+  color: #58402c;
+}
+
+.feedback .right img,
+.reviews .right img {
+  max-width: 250px;
+  display: block;
+  padding-top: 50px;
+}
+
+.surveys .right img,
+.recognition .right img {
+  width: 100%;
+}
+
+.surveys .left,
+.recognition .left {
+  margin-left: 350px;
+  padding-top: 20px;
+  padding-right: 40px;
+  font-size: 25px;
+  color: #58402c;
+}
+
+.surveys .left img,
+.recognition .left img {
+  max-width: 250px;
+  display: block;
+  padding-top: 50px;
+}
+
 * {
   text-decoration: none;
   list-style: none;
