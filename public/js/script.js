@@ -10707,9 +10707,20 @@ return jQuery;
 $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 
 function init() {
+  var navbar = $(".header-top");
+  console.log(navbar);
   $(".cookie p span a[value='close-cookies']").click(closecookie);
   $(".menu-drop-box").mouseover(showmenu);
   $(".menu-drop-box >div").mouseleave(hidemenu);
+  $(window).on("scroll", function (event) {
+    console.log(event);
+
+    if (window.pageYOffset > 300) {
+      navbar.addClass("f-navbar");
+    } else {
+      navbar.removeClass("f-navbar");
+    }
+  });
 }
 
 $(document).ready(init);

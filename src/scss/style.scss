@@ -20,6 +20,7 @@ $color_text_default:#58402c;
 @import "section-one";
 @import "section-two";
 @import "footer";
+@import "get-start";
 *{
   text-decoration: none;
   list-style: none;
@@ -27,4 +28,14 @@ $color_text_default:#58402c;
 hr{
   color:$color_text_default;
   opacity:0.4;
+}
+.f-navbar{
+  position:fixed;
+  top:0;
+  width:100%;
+  border-top:1px solid gray;
+  border-bottom:1px solid gray;
+  background-color:white; 
+  z-index:9999;
+  padding:0;
 }

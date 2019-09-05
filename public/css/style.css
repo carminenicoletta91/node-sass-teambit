@@ -595,7 +595,7 @@ header .header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 0;
+  padding: 30px 100px;
 }
 
 header .header-top-navbar {
@@ -896,6 +896,92 @@ footer .link-teambit img {
   height: 50px;
 }
 
+.get-start {
+  padding: 100px 0;
+  background: #ffe7d2;
+}
+
+.get-start .title {
+  color: #58402c;
+  padding-left: 50px;
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 40px;
+}
+
+.get-start .title h3.contents-img {
+  display: contents;
+}
+
+.get-start .recensione {
+  background: white;
+  border: gray solid 1px;
+  border-radius: 5px;
+  padding: 0 35px;
+}
+
+.get-start .recensione p {
+  padding: 30px 0;
+  font-size: 20px;
+}
+
+.get-start .founder {
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+}
+
+.get-start .founder .img-founder img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.get-start .founder .name-founder p {
+  padding: 0;
+  line-height: 1;
+}
+
+.get-start .founder .name-founder p:first-child {
+  color: navy;
+}
+
+.get-start .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.get-start .link a,
+.get-start .link p {
+  padding: 5px 15px;
+}
+
+.get-start .link a {
+  background-color: rgba(0, 0, 128, 0.8);
+  color: white;
+  border-radius: 15px;
+}
+
+.get-start .link a:hover {
+  background-color: navy;
+}
+
+.get-start .email-user-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.get-start .email-user-container a {
+  color: #58402c;
+}
+
+.get-start .email-user-container a:hover {
+  color: navy;
+}
+
 * {
   text-decoration: none;
   list-style: none;
@@ -904,5 +990,16 @@ footer .link-teambit img {
 hr {
   color: #58402c;
   opacity: 0.4;
+}
+
+.f-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  background-color: white;
+  z-index: 9999;
+  padding: 0;
 }
 

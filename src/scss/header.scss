@@ -1,9 +1,13 @@
 header{
+
   color:$color_text_default;
   .header-top{
+
     width:100%;
     @include flexatcenter(space-between);
-    padding:30px 0;
+    padding:30px 100px;
+    // border-bottom:1px solid gray;
+    // border-bottom;
   }
   .header-top-navbar{
     width:100%;
@@ -24,7 +28,7 @@ header{
       .menu-drop-box{
         position: relative;
         padding:0 20px;
-        
+
         .menu-drop-box-items{
           display:none;
           position: absolute;
